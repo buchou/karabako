@@ -1,0 +1,18 @@
+{
+  "name": "Karabako",
+  "version": "0.0.1",
+  "description": "SKYBOX Airscreen Impersonator",
+  "license": "Unlicense",
+  "repository": "N/A",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dgram": "^1.0.1",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "socket.io": "^2.0.3",
+    "uuid": "^3.1.0"
+  }
+}
