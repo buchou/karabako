@@ -14,7 +14,7 @@ First install required dependencies with:
 `npm install`
 
 Then start with:
-`node app.js`
+`node karabako.js`
 
 By default it looks for video files in the current directory. The first argument can be used to specify another directory.
 It attempts to figure out the IP address of the LAN Ethernet interface automatically.
