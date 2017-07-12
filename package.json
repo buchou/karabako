@@ -6,8 +6,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/buchou/karabako.git"
-  }
-  "repository": "N/A",
+  },
   "dependencies": {
     "child_process": "^1.0.2",
     "dgram": "^1.0.1",
