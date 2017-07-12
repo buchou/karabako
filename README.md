@@ -1,6 +1,6 @@
 # Karabako (&#31354;&#31665;)
 
-Karabako is a simple streaming video server meant to be used with the SKYBOX Player app.
+Karabako is a simple streaming video server meant to be used with the SKYBOX VR Player smartphone app.
 It has been tested on Linux, but probably works on other platforms as well.
 
 ### Prerequisites
