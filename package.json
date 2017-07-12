@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "SKYBOX Airscreen Impersonator",
   "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buchou/karabako.git"
+  }
   "repository": "N/A",
   "dependencies": {
     "child_process": "^1.0.2",
