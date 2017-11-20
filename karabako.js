@@ -49,7 +49,7 @@ function fileScanner(directory) {
 
     const ffprobe = cp.spawnSync('ffprobe', [path.resolve(directory, files[x])]);
     var matchDur = /Duration: (\d\d):(\d\d):(\d\d)\.(\d\d)/.exec(ffprobe.stderr.toString());
-    var matchDim = /(\d+)x(\d+)/.exec(ffprobe.stderr.toString());
+    var matchDim = /(\d\d\d(?:\d)?)x(\d\d\d(?:\d)?)/.exec(ffprobe.stderr.toString());
     var duration = (matchDur[1] * 3600000) + (matchDur[2] * 60000) + (matchDur[3] * 1000) + (matchDur[4] * 10);
     var width = matchDim[1]
     var height = matchDim[2]
